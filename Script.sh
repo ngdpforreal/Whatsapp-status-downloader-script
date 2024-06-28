@@ -7,9 +7,9 @@ echo Taking Status from your android folder.
 # Check if the script is running on Android
 if [ -e /system/bin/sh ]; then
     echo "Android platform detected. Continuing script..."
-    cd /storage/emulated/0/media/com.whatsapp/WhatsApp/media/.Statuses
+    cd /storage/emulated/0/Android/media/com.whatsapp/WhatsApp/media/.Statuses
 mkdir /sdcard/status
-mv * /sdacrd/status
+mv * /sdcard/status
 echo all done! just check your status on /storage/emulated/0/status
 else
     echo "Sorry! This Script just for Android Device that has whatsaap"
